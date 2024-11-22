@@ -47,7 +47,6 @@ pip install -r requirements.txt
 DJANGO_SECRET_KEY=your_secret_key_here
 MOVIE_API_USERNAME=iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0
 MOVIE_API_PASSWORD=Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1
-REDIS_URL=redis://localhost:6379/0
 DEBUG=True
 ```
 
