@@ -1,0 +1,586 @@
+{
+	"info": {
+		"_postman_id": "469e05fc-5424-447a-a067-05782cb2e72e",
+		"name": "Movies API",
+		"description": "Test description\n\nContact Support:\n Email: contact@snippets.local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29626579"
+	},
+	"item": [
+		{
+			"name": "collection",
+			"item": [
+				{
+					"name": "collection",
+					"item": [
+						{
+							"name": "{collection_uuid}",
+							"item": [
+								{
+									"name": "collection collection read",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"collection",
+												"collection",
+												":collection_uuid",
+												""
+											],
+											"variable": [
+												{
+													"key": "collection_uuid",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Untitled Response",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Authorization",
+														"value": "Basic <credentials>",
+														"description": "Added as a part of security scheme: basic"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"collection",
+														"collection",
+														":collection_uuid",
+														""
+													],
+													"variable": [
+														{
+															"key": "collection_uuid"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "collection collection update",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"collection",
+												"collection",
+												":collection_uuid",
+												""
+											],
+											"variable": [
+												{
+													"key": "collection_uuid",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Untitled Response",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "Authorization",
+														"value": "Basic <credentials>",
+														"description": "Added as a part of security scheme: basic"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"collection",
+														"collection",
+														":collection_uuid",
+														""
+													],
+													"variable": [
+														{
+															"key": "collection_uuid"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "collection collection delete",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"collection",
+												"collection",
+												":collection_uuid",
+												""
+											],
+											"variable": [
+												{
+													"key": "collection_uuid",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Untitled Response",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "Authorization",
+														"value": "Basic <credentials>",
+														"description": "Added as a part of security scheme: basic"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/collection/collection/:collection_uuid/",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"collection",
+														"collection",
+														":collection_uuid",
+														""
+													],
+													"variable": [
+														{
+															"key": "collection_uuid"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "collection collection list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/collection/collection/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"collection",
+										"collection",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Untitled Response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Basic <credentials>",
+												"description": "Added as a part of security scheme: basic"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/collection/collection/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"collection",
+												"collection",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "collection collection create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/collection/collection/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"collection",
+										"collection",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Untitled Response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Basic <credentials>",
+												"description": "Added as a part of security scheme: basic"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/collection/collection/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"collection",
+												"collection",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "movies",
+			"item": [
+				{
+					"name": "movies",
+					"item": [
+						{
+							"name": "movies movies list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/movies/movies/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"movies",
+										"movies",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Untitled Response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Basic <credentials>",
+												"description": "Added as a part of security scheme: basic"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/movies/movies/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"movies",
+												"movies",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "register",
+			"item": [
+				{
+					"name": "register create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/register/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"register",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Basic <credentials>",
+										"description": "Added as a part of security scheme: basic"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/register/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"register",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "request-count",
+			"item": [
+				{
+					"name": "request-count",
+					"item": [
+						{
+							"name": "reset",
+							"item": [
+								{
+									"name": "request-count request-count reset create",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/request-count/request-count/reset/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"request-count",
+												"request-count",
+												"reset",
+												""
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Untitled Response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Authorization",
+														"value": "Basic <credentials>",
+														"description": "Added as a part of security scheme: basic"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/request-count/request-count/reset/",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"request-count",
+														"request-count",
+														"reset",
+														""
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "request-count request-count list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/request-count/request-count/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"request-count",
+										"request-count",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Untitled Response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Basic <credentials>",
+												"description": "Added as a part of security scheme: basic"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/request-count/request-count/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"request-count",
+												"request-count",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMyMzU0MTA3LCJpYXQiOjE3MzIyNjc3MDcsImp0aSI6IjUxM2VlYjBmMjFjNzRlYzI5M2E0MjA0N2NhZTE4OWRjIiwidXNlcl9pZCI6M30.cn5a0-cZWxJtpfeVto9u_jDY5Zs3zMChKGLEfcEQqjo",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://127.0.0.1:8000"
+		}
+	]
+}
